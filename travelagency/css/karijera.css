@@ -1,0 +1,104 @@
+main{
+    display: flex !important;
+    margin-top:120px !important;
+    height: 800px;
+    background-size: cover !important;
+}
+.prviDeo, .drugiDeo{
+    width: 100%;
+}
+.prviDeo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/karijera/career3.jpg");
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.drugiDeo {
+    background-image: url("../img/karijera/career.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+}
+.drugiDeo h1{
+    color: red;
+}
+.text{
+    font-size:100px;
+    background: linear-gradient(to bottom, #a90329 0%,#8f0222 44%,#6d0019 100%);
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.prviDeo p{
+    font-size:30px;
+    color:white;
+  /*
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(to right, #F0CB35, #C02425);  
+    background: linear-gradient(to right, #F0CB35, #C02425); 
+*/
+}
+.drugiDeo .sadrzaj{
+    height: 50%;
+}
+.drugiDeo .sadrzaj h1{
+    background: linear-gradient(to bottom, #a90329 0%,#8f0222 44%,#6d0019 100%);
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.drugiDeo .sadrzaj p{
+    font-size: 20px;
+    color:white;
+    text-shadow: 5px 5px 5px black;
+}
+
+.benefiti{
+    width:50%;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+    color:grey;
+}
+.benefiti img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+.naslov{
+    text-align: center;
+    color:#666;
+}
+@media (max-width: 992px) { 
+    main{
+        display:flex !important;
+        flex-direction: column !important;
+        height: 1600px !important;
+    }
+    .prviDeo, .drugiDeo{
+        height: 100%;
+    }
+    .prviDeo{
+        text-align: center;
+    }
+    .prviDeo h1,.prviDeo p{
+        padding:10px;
+        background-color:rgba(0,0,0,0.5);
+    }
+    .drugiDeo {
+        background-position: right;
+    }
+}
+@media (min-width: 993px) {
+    .drugiDeo {
+        background-position: top;
+    }
+    .prviDeo h1,.prviDeo p{
+        padding:10px;
+        background-color:rgba(0,0,0,0.5);
+    }
+}

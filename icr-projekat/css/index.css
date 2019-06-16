@@ -1,0 +1,113 @@
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    background-color:#007bff !important;
+    color:white;
+}
+
+.pozadinaH5{
+    background-color: #007bff !important;
+    color:white;
+}
+.pozadinaBlue{
+    background-color:#4276ab;
+}
+.col-lg-12 .card{
+    display: flex;
+    flex-direction: row;
+}
+.col-lg-12 .card .card-header{
+    width:20%;
+}
+
+.col-lg-8 .pozadinaBlue:nth-child(2) .col-lg-6 .card{
+    display: flex;
+    flex-direction: row;
+}
+.col-lg-8 .pozadinaBlue:nth-child(2) .col-lg-6 .card .card-header{
+    width:50%;
+    overflow: hidden;
+}
+.menjaj{
+    border-top: 5px solid #4276ab;
+}
+.nav-tabs .nav-item {
+    font-size:12px;
+}
+.col-lg-8 .pozadinaBlue .col-lg-6 .card{
+    border-left:none;
+    border-right:none;
+    background-color:transparent;
+}
+.col-lg-8 .pozadinaBlue .col-lg-6 .card .card-body h5 a{
+    color:white;
+}
+.col-lg-8 .pozadinaBlue:nth-child(2) .col-lg-6 .card{
+    border-left:none;
+    border-right:none;
+    background-color: #34679b;
+}
+@media (min-width: 100px) { 
+.col-lg-12 .card .card-header{
+    width:150%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.col-lg-8 .pozadinaBlue:nth-child(2) .col-lg-6 .card .card-header{
+    width:250%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+    .col-lg-12 .card .card-header{
+        width:176%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .col-lg-8 .pozadinaBlue:nth-child(2) .col-lg-6 .card .card-header{
+        width:50%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+    .col-lg-12 .card .card-header{
+        width:50%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        }
+
+        .col-lg-8 .pozadinaBlue:nth-child(2) .col-lg-6 .card .card-header{
+            width:150%;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    .col-lg-12 .card .card-header{
+        width:40%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    }
+}
+.row-reverse .col-lg-12{
+    padding-left:0;
+    padding-right:0;
+}

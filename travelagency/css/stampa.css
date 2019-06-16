@@ -1,0 +1,22 @@
+.navbar-brand{
+    position: relative !important;
+}
+h1.fadeInDownBig.animated {
+    margin-top: 200px;
+}
+
+.navbar-brand{
+    margin-right: auto !important;
+    right: 50%;
+    position: static !important;
+}
+
+@media (max-width: 992px){
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    height: 56px !important;
+}
+.navbar-brand img{
+    width:56px !important;
+    height:56px !important;
+}
+}

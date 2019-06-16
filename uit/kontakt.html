@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/kontakt.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+
+    <script>
+        function menjaj() {
+            var s = window.innerHeight;
+            var d = window.innerWidth;
+            document.getElementById("head1").style.height = s + "px";
+            document.getElementsByClassName("main")[0].style.height = s + "px";
+        }
+    </script>
+    <link rel="stylesheet" href="https://use.typekit.net/jih7qaj.css">
+</head>
+
+<body onload="menjaj()">
+    <div class="container">
+        <header id="head1" class="img-fluid">
+            <nav>
+                <div class="topnav" id="myTopnav">
+                    <a href="index.html" class="active">POCETNA</a>
+                    <a href="biografija.html">BIOGRAFIJA</a>
+                    <a href="kontakt.html">KONTAKT</a>
+                    <a href="galerija.html">GALERIJA</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </nav>
+            <div class="konacniKontakt">
+
+                <div class="poruka">
+                    <h1>Kontaktirajte me</h1>
+                    <h3>Drago mi je da ste dosli do ove stranice, mozete me kontaktirati preko email-a, drustvenih mreza ili popuniti ovu formu. Nadam se nasem buducem kontaktu.
+                        <div class="mreze">
+                            <a href="https://www.facebook.com/mihajilomrsomrsevic"><i class="fab fa-facebook"></i></a>
+                            <a href="https://twitter.com/MMMrso"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.linkedin.com/in/mihajilomrsevic/"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/_mihajilo_"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </h3>
+                </div>
+
+                <form>
+                    <label for="ime">Ime:<br></label>
+                    <input type="text" name="ime" placeholder="Upisite Vase ime">
+
+                    <label for="prezime">Prezime:<br></label>
+                    <input type="text" name="prezime" placeholder="Upisite Vase prezime">
+                    <br>
+                    <label for="email">Email:<br></label>
+                    <input type="email" name="email" placeholder="Upisite Vas email">
+                    <br>
+                    <input type="submit" value="Posalji">
+                </form>
+            </div>
+
+        </header>
+        <footer>
+            <div class="meniji">
+                <div class="zamenaMenija">
+                    <div class="row">
+                        <div class="col-3"><a href="biografija.html">BIOGRAFIJA</a></div>
+                        <div class="col-3"><a href="kontakt.html">KONTAKT</a></div>
+                        <div class="col-3"><a href="galerija.html">GALERIJA</a></div>
+                        <div class="col-3"><a href="potrebaZaWebSajtom.html">STA JE WEBSAJT?</a></div>
+                    </div>
+
+                </div>
+                <div class="zamenaMenija1">
+                    <div class="row">
+                        <div class="col-3"><a href="https://www.facebook.com/mihajilomrsomrsevic"><i class="fab fa-facebook"></i></a></div>
+                        <div class="col-3"><a href="https://www.twitter.com/MMMrso"><i class="fab fa-twitter"></i></a></div>
+                        <div class="col-3"><a href="https://www.linkedin.com/in/mihajilomrsevic/"><i class="fab fa-linkedin"></i></a></div>
+                        <div class="col-3"><a href="https://www.instagram.com/_mihajilo_/"><i class="fab fa-instagram"></i></a></div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="svaPrava">
+                Copyright Sva prava zadrzana.
+            </div>
+            <script>
+                var dt = new Date();
+                document.getElementsByClassName("svaPrava")[0].innerHTML = dt.getFullYear() + " &#169; Copyright Sva prava zadrzana.";
+            </script>
+        </footer>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
+</html>

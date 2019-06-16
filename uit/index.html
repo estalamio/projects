@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script>
+        function menjaj() {
+            var s = window.innerHeight;
+            var d = window.innerWidth;
+            document.getElementById("head1").style.height = s + "px";
+            document.getElementsByClassName("main")[0].style.height = s + "px";
+        }
+    </script>
+    <style>
+
+    </style>
+    <link rel="stylesheet" href="https://use.typekit.net/jih7qaj.css">
+</head>
+
+<body onload="menjaj()">
+
+    <div class="container" id="mrso">
+        <header id="head1" class="img-fluid">
+            <nav>
+                <div class="topnav" id="myTopnav">
+                    <a href="index.html" class="active">POCETNA</a>
+                    <a href="biografija.html">BIOGRAFIJA</a>
+                    <a href="kontakt.html">KONTAKT</a>
+                    <a href="galerija.html">GALERIJA</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </nav>
+            <div class="poruka">
+                <h1>Mihajilo Mrsevic</h1>
+                <h3>Ja sam mladi front-end iz Beograda. Svoje putovanje zapoceo sam 2015 godine kada sam zvanicno odlucio da zelim da radim u web okruzenju. Do danas sam savladao nove programske jezike i stekao rutinu u koriscenju razlicitih vrsta radnih
+                    okruzenja... Konstantno da usavrsavam svoje vestine i napredujem u svom domenu.
+                </h3>
+            </div>
+
+        </header>
+
+        <!--
+<div class="main">
+   <div class="promovisanje">
+       <h2>Zasto vam treba web sajt</h2>
+       <div class="pitanja">
+           <div class="row">
+                <div class="col-4">
+                        <div class="ivica">
+                         <h2>Web sajt?</h2>
+                         <p>Kao osnovno sredstvo,
+                              osnovno sredstvo,
+                              osnovno sredstvo,
+                              osnovno sredstvo,
+                              osnovno sredstvo.
+                         </p>
+                     
+                         <div class="procitajVise">Procitaj vise</div>
+                    </div></div>
+               <div class="col-4">
+                   <div class="ivica">
+                    <h2>Web sajt?</h2>
+                    <p>Kao osnovno sredstvo,
+                         osnovno sredstvo,
+                         osnovno sredstvo,
+                         osnovno sredstvo,
+                         osnovno sredstvo.
+                    </p>
+                
+                    <div class="procitajVise">Procitaj vise</div>
+               </div></div>
+               <div class="col-4">
+                    <div class="ivica">
+                     <h2>Web sajt?</h2>
+                     <p>Kao osnovno sredstvo,
+                          osnovno sredstvo,
+                          osnovno sredstvo,
+                          osnovno sredstvo,
+                          osnovno sredstvo.
+                     </p>
+                
+                     <div class="procitajVise">Procitaj vise</div>
+                </div></div>
+
+       </div>
+    </div>
+</div>
+    </div>
+-->
+
+        <main>
+            <div class="potreba">
+                <div class="zastoJePotrebanSajt">
+                    <h2>Zasto Vam je potreban
+                        <h1 class="naslovH1">WEBSAJT?</h1>
+                    </h2>
+                    <a href="potrebaZaWebSajtom.html">
+                        <div class="dugmic">Saznaj vise > ></div>
+                    </a>
+                </div>
+                <img src="img/www.png" width="100%" height="auto">
+            </div>
+
+
+        </main>
+
+        <footer>
+            <div class="meniji">
+                <div class="zamenaMenija">
+                    <div class="row">
+                        <div class="col-3"><a href="biografija.html">BIOGRAFIJA</a></div>
+                        <div class="col-3"><a href="kontakt.html">KONTAKT</a></div>
+                        <div class="col-3"><a href="galerija.html">GALERIJA</a></div>
+                        <div class="col-3"><a href="potrebaZaWebSajtom.html">STA JE WEBSAJT?</a></div>
+                    </div>
+
+                </div>
+                <div class="zamenaMenija1">
+                    <div class="row">
+                        <div class="col-3"><a href="https://www.facebook.com/mihajilomrsomrsevic"><i class="fab fa-facebook"></i></a></div>
+                        <div class="col-3"><a href="https://www.twitter.com/MMMrso"><i class="fab fa-twitter"></i></a></div>
+                        <div class="col-3"><a href="https://www.linkedin.com/in/mihajilomrsevic/"><i class="fab fa-linkedin"></i></a></div>
+                        <div class="col-3"><a href="https://www.instagram.com/_mihajilo_/"><i class="fab fa-instagram"></i></a></div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="svaPrava">
+                Copyright Sva prava zadrzana.
+            </div>
+            <script>
+                var dt = new Date();
+                document.getElementsByClassName("svaPrava")[0].innerHTML = dt.getFullYear() + " &#169; Copyright Sva prava zadrzana.";
+            </script>
+        </footer>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+</body>

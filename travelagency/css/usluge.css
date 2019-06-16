@@ -1,0 +1,128 @@
+
+.list-group-item{
+    border:none;
+}
+li.list-group-item.active.text-center{
+    background-color:#6610f2 !important;
+}
+.list-group{
+    border:1px solid #6610f2;
+}
+main > p {
+    color: grey;
+    text-align: center;
+}
+
+main h2 {
+ /*   color: white;*/
+    text-align: center;
+}
+
+aside {
+    text-align: center;
+}
+
+aside h2 {
+    color: white;
+}
+
+aside p:nth-child(1) {
+    color: grey;
+}
+
+.destinacija {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    background: -webkit-linear-gradient(to right, #8360c3, #2ebf91);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8360c3, #2ebf91);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.destinacija .slika1 {
+    width: 50%;
+}
+
+.destinacijaText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin:auto;
+}
+
+.destinacijaText p {
+    text-align: justify;
+}
+
+.destinacija:nth-child(2) {
+    display: flex;
+    flex-direction: row-reverse;
+    background: -webkit-linear-gradient(to right, #c0392b, #8e44ad);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #c0392b, #8e44ad);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.destinacija:nth-child(4) {
+    display: flex;
+    flex-direction: row-reverse;
+    background: -webkit-linear-gradient(to right, #1D2671, #C33764);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1D2671, #C33764);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.slika p{
+    color:black;
+/*    color:#6610f2;*/
+    font-weight: 800;
+    text-align: center;
+}
+.header h2{
+    color:black;
+}
+.header p{
+    color: grey;
+}
+main .destinacija .row .col-lg-4, main .destinacija .row .col-lg-8{
+    display: flex;
+}
+.telo .destinacija .row .col-lg-4, .telo .destinacija .row .col-lg-8{
+    display: flex;
+}
+.col-lg, .col-lg{
+    display: flex;
+}
+.mt-3:hover{
+    color:white;
+}
+.flajer{
+    width:150px;
+    height:25px;
+    background-color: #6610f2;
+    color:white;
+    position:absolute;
+    display: flex;
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+    transform: rotate(-45deg);
+    left:-30px;
+    top:20px;
+    overflow: hidden;
+    z-index: 3;
+}
+.slika,.img-fluid{
+    overflow: hidden;
+    position: relative;
+}
+.carousel-caption.d-none.d-md-block{
+    background:rgba(0,0,0,0.5);
+}
+main .row{
+    margin-left:auto !important;
+    margin-right: auto !important;
+    justify-content: center;
+}

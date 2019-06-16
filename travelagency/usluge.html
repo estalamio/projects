@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Mihajilo Mrsevic">
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <title>Shadow agencija - Usluge </title>
+
+
+
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/usluge.css">
+    <link rel="stylesheet" href="css/meni.css">
+    <link rel="stylesheet" href="css/footer.css">
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+	  <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+    function promeniStil(x){
+    
+    x.style.borderColor = "#6610f2";
+    x.style.borderStyle = "solid";
+    x.style.borderWidth = "1px";
+    x.style.backgroundColor="#6610f2";
+    x.style.color="white !important";
+    }
+
+    function vratiStil(x){
+        x.style.border="none";
+        x.style.backgroundColor="transparent";
+        x.style.color="white !important";
+    }
+    </script>
+</head>
+
+<body>
+    <div class="full-width">
+
+                <!-- SLAJDER -->
+                <header class="bd-example fadeInDownBig animated">
+                    <div id="carouselExampleCaptions1" class="carousel slide" data-ride="carousel">
+                            <!-- MENI -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fadeInDownBig animated">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                                      <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                                        <a class="navbar-brand" href="index.html"><img src="img/logo.png" width="100px" height="100px" alt="Logo sajta"></a>
+                                        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="onama.html">O nama</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="usluge.html">Usluge </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="galerija.html">Galerija </a>
+                                            </li>
+                                        </ul>
+                        
+                        
+                                        <ul class="navbar-nav mt-2 mt-lg-0" style="margin-left:auto;">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="faq.html">FAQ </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="kontakt.html">Kontakt </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="sitemap.html">Mapa sajta</a>
+                                            </li>
+                                        </ul>
+                        
+                                    </div>
+                                </nav> <!-- KRAJ MENIJA -->
+
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleCaptions1" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleCaptions1" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleCaptions1" data-slide-to="2"></li>
+                            <li data-target="#carouselExampleCaptions1" data-slide-to="3"></li>
+                            <li data-target="#carouselExampleCaptions1" data-slide-to="4"></li>
+                            <li data-target="#carouselExampleCaptions1" data-slide-to="5"></li>
+                            <li data-target="#carouselExampleCaptions1" data-slide-to="6"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/alpi/alpi8.jpg" class="d-block w-100" alt="Alpi">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>ALPI</h5>
+                                    <p>Alpi su najviši planinski masiv u Evropi koji se ujedno proteže kroz osam zemalja. 
+                                        Jedna od tih osam zemalja je Francuska. Alpi su takođe najgušće naseljen planinski venac u Evropi</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/kopaonik/kop8.png" class="d-block w-100" alt="Kopaonik">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>KOPAONIK</h5>
+                                    <p>Kopaonik je najveći skijaški centar u Srbiji i nesumnjivo jedan od najlepših centara u ovom delu Evrope. 
+                                        Pored toga što predstavlja jednu od najlepših planina u Srbiji, 
+                                        Kopaonik poseduje i neverovatan prirodni potencijal od oko 200 sunčanih i oko 160 dana pod snežnim pokrivačem tokom godine</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/zlatibor/zl2.jpg" class="d-block w-100" alt="Zlatibor">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>ZLATIBOR</h5>
+                                    <p>Zlatibor nalazi se u jugozapadnom delu Srbije, na nadmorskoj visini od 700 do 1.500 m, 238 km od Beograda. 
+                                        Najviši planinski vrhovi su: Tornik (1.496 m) i Čigota (1.422 m)</p>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="img/gradovi/amsterdam.jpg" class="d-block w-100" alt="Amsterdam">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>AMSTERDAM</h5>
+                                    <p>Raznobojan i šarmantan Amsterdam mami osmehe na lice i nikoga ne ostavlja ravnodušnim. 
+                                        Podjednako je  grad zabave, kulture, istorije, tolerancije i različitosti. 
+                                        Ispresecan kanalima, Amsterdam odlikuju kuće od čokolade, umetnost, udobni i skriveni kafići i duh slobode</p>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="img/gradovi/hurgada.jpg" class="d-block w-100" alt="Hurgada">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>HURGADA</h5>
+                                    <p>Najpopularnije egipatsko letovalište na obalama Crvenog mora. 
+                                        Nekada pospano ribarsko selo, danas moderan tursitčki centar. 
+                                        Nalazi se na oko 5 sati vožnje južno od Kaira. Ima oko 248,000 stanovnika i obalu dugu 50km</p>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="img/gradovi/njujork.jpeg" class="d-block w-100" alt="Nju Jork">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>NJU JORK</h5>
+                                    <p>Njujork, grad stotinu kultura i jezika, opuštenih ljudi gde svako živi svoju priču, kao ni jedan drugi na svetu, 
+                                        živi i danju i noću na sebi svojstven i jedinstven način i čija se atmosfera ne može preneti ni opisati nego samo doživeti. “New York, New York’’, 
+                                        neiscrpna inspiracija, grad u kojem je snimljen veliki broj filmskih scena i muzičkih spotova, 
+                                        zbog čega ćete imati utisak da ga već poznajete, betonska džungla u kojoj se prave snovi,
+                                         koketan i beskrajno privlačan od svog nastanka, pa sve do danas</p>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="img/gradovi/moskva.jpg" class="d-block w-100" alt="Moskva">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>MOSKVA</h5>
+                                    <p>Moskva je  jedan od najstarijih gradova u Evropi. Prvi put se pominje 1147. godine, 
+                                        a od petnaestog veka postaje prestonica ruske države. 
+                                        Taj status Moskva je imala do 1712. kada se glavni grad seli u Sankt Peterburg. 
+                                        Značaj grada nije opadao, a Moskva je postala centar brojnih značajnih događaja za ruski narod</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleCaptions1" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleCaptions1" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </header>
+     
+<!-- MAIN LETOVANJA -->
+            <main class="mt-5 mb-5 fadeInDownBig animated">
+                <h2>Letovanja</h2>
+                <p>Letujte po veoma pristupacnim cenama u zemlji ili inostranstvu.</p>
+             
+                <div class="row fadeInDownBig animated">
+                    <!-- AKTUELNA PUTOVANJA -->
+               <div class="col-lg-2">
+                    <ul class="list-group">
+                            <li class="list-group-item active text-center">AKTUELNA PUTOVANJA</li>
+                          
+                            <li class="list-group-item">01.06 - <b>LIMA - 9 dana</b></li>
+                            <li class="list-group-item">07.06 - <b>KUBA - 6 dana</b></li>
+                            <li class="list-group-item">14.06 - <b>JAMAJKA - 4 dana</b></li>
+                            <li class="list-group-item">21.06 - <b>VENECIJA - 14 dana</b></li>
+                            <li class="list-group-item">28.06 - <b>TESALONIKI - 15 dana</b></li>
+
+                            <li class="list-group-item">05.07 - <b>MOSKVA - 12 dana</b></li>
+                            <li class="list-group-item">11.07 - <b>MADRID - 9 dana</b></li>
+                            <li class="list-group-item">17.07 - <b>SICILIJA - 16 dana</b></li>
+                            <li class="list-group-item">23.07 - <b>PARIZ - 10 dana</b></li>
+                            <li class="list-group-item">29.07 - <b>BUDVA - 11 dana</b></li>
+
+                            <li class="list-group-item">04.08 - <b>LISBON - 14 dana</b></li>
+                            <li class="list-group-item">09.08 - <b>LONDON - 17 dana</b></li>
+                            <li class="list-group-item">14.08 - <b>HURGADA - 12 dana</b></li>
+                            <li class="list-group-item">19.08 - <b>ISTANBUL - 15 dana</b></li>
+                            <li class="list-group-item">24.08 - <b>NJU JORK - 25 dana</b></li>
+
+                            <li class="list-group-item">29.08 - <b>AMSTERDAM - 7 dana</b></li>
+                            <li class="list-group-item">31.08 - <b>SARAJEVO - 8 dana</b></li>
+                            <li class="list-group-item">01.09 - <b>ZAGREB - 10 dana</b></li>
+                            <li class="list-group-item">03.09 - <b>LJUBLJANA - 5 dana</b></li>
+                            <li class="list-group-item">05.09 - <b>PODGORICA - 16 dana</b></li>
+
+                            <li class="list-group-item">08.09 - <b>SKOPLJE - 12 dana</b></li>
+
+                          </ul>
+
+                </div><!-- AKTUELNA PUTOVANJA -->
+
+                <!-- DESTINACIJE -->
+                <div class="col-lg-8">
+               <!-- 1. RED PUTOVANJA -->
+                <div class="row">
+                    <div class="col-lg">
+                      
+                        <div class="slika" onmouseover="promeniStil(this)" onmouseout="vratiStil(this)">
+                                <div class="flajer">
+                                        250 &euro;
+                                    </div>
+                            <img class="img-fluid" src="img/gradovi/lima.jpg" alt="Lima">
+                            <p class="mt-3" onmouseover="promeniStil(this)" onmouseout="vratiStil(this)">LIMA - 9 dana</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg">
+                      
+                        <div class="slika" onmouseover="promeniStil(this)" onmouseout="vratiStil(this)">
+                                <div class="flajer">
+                                        200 &euro;
+                                    </div>
+                            <img class="img-fluid" src="img/gradovi/kuba.jpg" alt="Kuba">
+                            <p class="mt-3" onmouseover="promeniStil(this)" onmouseout="vratiStil(this)">KUBA - 6 dana</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg">
+                      
+                        <div class="slika" onmouseover="promeniStil(this)" onmouseout="vratiStil(this)">
+                                
+                            <div class="flajer">
+                                        150 &euro;
+                                    </div>
+                                    <img class="img-fluid" src="img/gradovi/jamajka.jpg" alt="Jamajka">
+                                <p class="mt-3">JAMAJKA - 4 dana</p>
+                            </div>
+                    </div>
+
+                    <div class="col-lg">
+                       
+                        <div class="slika" onmouseover="promeniStil(this)" onmouseout="vratiStil(this)">
+                                
+                            <div class="flajer">
+                                        300 &euro;
+                                    </div>
+                                    <img class="img-fluid" src="img/gradovi/venecija.jpg" alt="Venecija">
+                                <p class="mt-3">VENECIJA - 14 dana</p>
+                            </div>
+                    </div>
+
+                   
+                </div>
+                <br>
+                <!-- 2. RED PUTOVANJA -->
+                <div class="row">
+
+                    <div class="col-lg">
+                            <div class="slika" onmouseover="promeniStil(this)" onmouseout="vratiStil(this)">
+                                    
+                                <div class="flajer">
+                                        550 &euro;
+                                    </div>
+                                    <img class="img-fluid" src="img/gradovi/tesaloniki.jpg" alt="Tesaloniki">
+                                    <p class="mt-3">TESALONIKI - 15 dana</p>
+                                </div>
+                    </div>
+
+                    <div class="col-lg">
+                            <div class="slika" onmouseover="promeniStil(this)" onmouseout="vratiStil(this)">
+                                    
+                                <div class="flajer">
+                                        660 &euro;
+                                    </div>
+                                    <img class="img-fluid" src="img/gradovi/moskva.jpg" alt="Moskva">
+                                    <p class="mt-3">MOSKVA - 12 dana</p>
+                                </div>
+                    </div>
+
+                    <div class="col-lg">
+                            <div class="slika" onmouseover="promeniStil(this)" onmouseout="vratiStil(this)">
+                                    
+                                <div class="flajer">
+                                        450 &euro;
+                                    </div>
+                                    <img class="img-fluid" src="img/gradovi/madrid.jpg" alt="Madrid">
+                                    <p class="mt-3">MADRID - 9 dana</p>
+                                </div>
+                    </div>
+
+                    <div class="col-lg">
+                            <div class="slika" onmouseover="promeniStil(this)" onmouseout="vratiStil(this)">
+                                    
+                                <div class="flajer">
+                                        500 &euro;
+                                    </div>
+                                    <img class="img-fluid" src="img/gradovi/sicilija.jpg" alt="Sicilija">
+                                    <p class="mt-3">SICIJLIJA - 16 dana</p>
+                                </div>
+                                </div>
+                </div>
+                <br>
+                <!-- 3. RED PUTOVANJA -->
+                <div class="row">
+                        <div class="col-lg">
+                                <div class="slika" onmouseover="promeniStil(this)" onmouseout="vratiStil(this)">
+                                        
+                                    <div class="flajer">
+                                        320 &euro;
+                                    </div>
+                                    <img class="img-fluid" src="img/gradovi/pariz.jpg" alt="Pariz">
+                                        <p class="mt-3">PARIZ - 10 dana</p>
+                                    </div>
+                        </div>
+
+                        <div class="col-lg">
+                                <div class="slika" onmouseover="promeniStil(this)" onmouseout="vratiStil(this)">
+                                        
+                                    <div class="flajer">
+                                        420 &euro;
+                                    </div>
+                                    <img class="img-fluid" src="img/gradovi/budva.jpg" alt="Budva">
+                                        <p class="mt-3">BUDVA - 11 dana</p>
+                                    </div>
+                        </div>
+
+                        <div class="col-lg">
+                                <div class="slika" onmouseover="promeniStil(this)" onmouseout="vratiStil(this)">
+                                        
+                                    <div class="flajer">
+                                        550 &euro;
+                                    </div>
+                                    <img class="img-fluid" src="img/gradovi/lisbon.jpeg" alt="Lisbon">
+                                        <p class="mt-3">LISBON - 14 dana</p>
+                                    </div>
+                        </div>
+
+                        <div class="col-lg">
+                                <div class="slika" onmouseover="promeniStil(this)" onmouseout="vratiStil(this)">
+                                        
+                                    <div class="flajer">
+                                        350 &euro;
+                                    </div>
+                                    <img class="img-fluid" src="img/gradovi/london.jpg" alt="London">
+                                        <p class="mt-3">LONDON - 17 dana</p>
+                                    </div>
+                        </div>
+
+                       
+
+                </div>
+                <!-- 4. RED PUTOVANJA -->
+                <div class="row">
+                        <div class="col-lg">
+                                <div class="slika" onmouseover="promeniStil(this)" onmouseout="vratiStil(this)">
+                                        
+                                    <div class="flajer">
+                                        240 &euro;
+                                    </div>
+                                    <img class="img-fluid" src="img/gradovi/hurgada.jpg" alt="Hurgada">
+                                        <p class="mt-3">HURGADA - 12 dana</p>
+                                    </div>
+                                    </div>
+
+                        <div class="col-lg">
+                                            <div class="slika" onmouseover="promeniStil(this)" onmouseout="vratiStil(this)">
+                                                    
+                                                <div class="flajer">
+                                        280 &euro;
+                                    </div>
+                                    <img class="img-fluid" src="img/gradovi/istanbul.jpg" alt="Istanbul">
+                                                    <p class="mt-3">ISTANBUL - 15 dana</p>
+                                                </div>
+                                    </div>
+
+                                    <div class="col-lg">
+                      
+                                            <div class="slika" onmouseover="promeniStil(this)" onmouseout="vratiStil(this)">
+                                                    
+                                                <div class="flajer">
+                                        1250 &euro;
+                                    </div>
+                                    <img class="img-fluid" src="img/gradovi/njujork.jpeg" alt="Nju Jork">
+                                                    <p class="mt-3">NJU JORK - 25 dana</p>
+                                                </div>
+                                        </div>
+                                        <div class="col-lg">
+                      
+                                                <div class="slika" onmouseover="promeniStil(this)" onmouseout="vratiStil(this)">
+                                                        
+                                                    <div class="flajer">
+                                       300 &euro;
+                                    </div>
+                                    <img class="img-fluid" src="img/gradovi/amsterdam.jpg" alt="Amsterdam">
+                                                        <p class="mt-3">AMSTERDAM - 7 dana</p>
+                                                    </div>
+                                            </div>
+
+                </div>
+            </div>
+            </div>
+        </main> <!-- MAIN -->
+
+     
+<!-- ASIDE ZIMOVANJA -->
+        <aside class="zimovanja mt-5">
+
+            <div class="header">
+                <h2>Zimovanja</h2>
+                <p>Zimujte po veoma pristupacnim cenama u zemlji ili inostranstvu
+
+                </p>
+            </div>
+
+            <div class="telo">
+                <!-- SLAJDER KOPAONIK -->
+                <div class="destinacija">
+                    <div class="row">
+                    <div class="col-lg-4">
+                        <div class="bd-example">
+                            <div id="carouselExampleCaptions2" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleCaptions2" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleCaptions2" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleCaptions2" data-slide-to="2"></li>
+                                        <li data-target="#carouselExampleCaptions2" data-slide-to="3"></li>
+                                        <li data-target="#carouselExampleCaptions2" data-slide-to="4"></li>
+                                        <li data-target="#carouselExampleCaptions2" data-slide-to="5"></li>
+                                        <li data-target="#carouselExampleCaptions2" data-slide-to="6"></li>
+                                </ol>
+                                <div class="carousel-inner">
+
+                                    <div class="carousel-item active">
+                                        <img src="img/kopaonik/kop1.jpg" class="d-block w-100" alt="Kopaonik">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>Kafic Blank</h5>
+                                            <p>Uz tople napitke i tihu muziku, opustanje je zagarantovano</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/kopaonik/kop2.jpg" class="d-block w-100" alt="Kopaonik">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>Skijaske staze</h5>
+                                            <p>Mozete da se oprobate u skijanju i do par kilometara</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                            <img src="img/kopaonik/kop3.jpg" class="d-block w-100" alt="Kopaonik">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h5>Kraj staze</h5>
+                                                <p>Nista lepse od pogleda na pocetak staze odakle je sve pocelo, zar ne?</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="carousel-item">
+                                                <img src="img/kopaonik/kop4.jpg" class="d-block w-100" alt="Kopaonik">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                    <h5>Vreme odlicno</h5>
+                                                    <p>Kopaonik karakterise to sto posle napadanja snega nema novih smetova, tako da se skijanje odvija neometano</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="carousel-item">
+                                                    <img src="img/kopaonik/kop5.jpg" class="d-block w-100" alt="Kopaonik">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                        <h5>Toranj</h5>
+                                                        <p>Posetite toranj i vikendicu na jednom od vrhova </p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="carousel-item">
+                                                        <img src="img/kopaonik/kop6.jpg" class="d-block w-100" alt="Kopaonik">
+                                                        <div class="carousel-caption d-none d-md-block">
+                                                            <h5>Zicara</h5>
+                                                            <p>Ne morate da brinete o vracanju na pocetak staze, zicare su tu da Vam omoguce da sto pre ponovite trku</p>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="carousel-item">
+                                                            <img src="img/kopaonik/kop7.jpg" class="d-block w-100" alt="Kopaonik">
+                                                            <div class="carousel-caption d-none d-md-block">
+                                                                <h5>Sobe hotela</h5>
+                                                                <p>Udobni kreveti za savrseno spavanje i ugodan odmor</p>
+                                                            </div>
+                                                        </div>
+
+
+                                    
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleCaptions2" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleCaptions2" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <div class="col-lg-8">
+                    <div class="destinacijaText">
+                        <h2>Kopaonik</h2>
+                        <p>Jedna od najtrazenijih Srpskih destinacija sto se tice zimovanja. Nudi prelep pejzaz, odlican provod i nezaboravno iskustvo.<br> Prelepe duge ski staze nude i dodatno nocno skijanje + Ski Pass uz veoma povoljne cene pristupacne
+                            za sve tipove posetioca.
+                            <br> Kada su u pitanju skijališta Srbije Kopaonik je ubedljivo najprivlačniji turistima, kako domaćim, tako i stranim. Uređeni skijaški tereni koje nudi Kopaonik ski centar pružaju neizmerno uživanje svim kategorijama skijaša,
+                            od početnika do onih naprednih sposobnosti.
+                            <br> U ovom momentu Kopaonik ski centar, kojim upravlja JP Skijališta Srbije, raspolaže sitemom od 24 žičare i ski lifta. Kapacitet instalacija je preko 33.000 skijaša na sat. Ovaj sistem čine: tri (3) šestosedne žičare, 7
+                            četvorosednih žičara (4 isklopive četvorosedne žičare velike brzine i tri fiksne četvorosedne žičare sa pokretnom trakom za ukrcavanje skijaša), dve (2) dvosedne žičare, i dvanaest (12) ski liftova (sidro, tanjir i vezni).
+                            FIS standarde zadovoljavaju tri staze, pa se na Kopaoniku održavaju takmičenja koja se boduju za balkanski i Evropski kup.
+                        </p>
+                    </div>
+                </div>
+                </div>
+                </div><!-- SLAJDER KOPAONIK -->
+
+                <!-- SLAJDER ZLATIBOR -->
+                <div class="destinacija">
+                    <div class="row">
+                    <div class="col-lg">
+                            <div class="bd-example">
+                                    <div id="carouselExampleCaptions3" class="carousel slide" data-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                                <li data-target="#carouselExampleCaptions3" data-slide-to="0" class="active"></li>
+                                                <li data-target="#carouselExampleCaptions3" data-slide-to="1"></li>
+                                                <li data-target="#carouselExampleCaptions3" data-slide-to="2"></li>
+                                                <li data-target="#carouselExampleCaptions3" data-slide-to="3"></li>
+                                                <li data-target="#carouselExampleCaptions3" data-slide-to="4"></li>
+                                                <li data-target="#carouselExampleCaptions3" data-slide-to="5"></li>
+                                        </ol>
+                                        <div class="carousel-inner">
+        
+                                            
+                                           
+        
+                                            <div class="carousel-item active">
+                                                    <img src="img/zlatibor/zl2.jpg" class="d-block w-100" alt="Zlatibor">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                        <h5>Otkad se sunce pojavi mozete sve do zalaska da skijate bez ikakvih poteskoca</h5>
+                                                        <p>Medjutim Zlatibor ne bi bio toliko poseban da Vam pored svega nudi i nocno skijanje</p>
+                                                    </div>
+                                                </div>
+        
+                                                <div class="carousel-item">
+                                                        <img src="img/zlatibor/zl3.jpg" class="d-block w-100" alt="Zlatibor">
+                                                        <div class="carousel-caption d-none d-md-block">
+                                                            <h5>Nema guzve</h5>
+                                                            <p>Svi su u pokretu tako da guzva ne postoji</p>
+                                                        </div>
+                                                    </div>
+        
+                                                    <div class="carousel-item">
+                                                            <img src="img/zlatibor/zl4.jpg" class="d-block w-100" alt="Zlatibor">
+                                                            <div class="carousel-caption d-none d-md-block">
+                                                                <h5>Hotel Mons</h5>
+                                                                <p>Jedan od nasih omiljenih hotela, dugogodisnja saradnja i veoma smo zadovoljni</p>
+                                                            </div>
+                                                        </div>
+        
+                                                        <div class="carousel-item">
+                                                                <img src="img/zlatibor/zl5.jpg" class="d-block w-100" alt="Zlatibor">
+                                                                <div class="carousel-caption d-none d-md-block">
+                                                                    <h5>Da li smete ono sto zelite?</h5>
+                                                                    <p>Ovo je prava staza da testirate svoj adrenalin</p>
+                                                                </div>
+                                                            </div>
+        
+                                                            <div class="carousel-item">
+                                                                    <img src="img/zlatibor/zl6.jpg" class="d-block w-100" alt="Zlatibor">
+                                                                    <div class="carousel-caption d-none d-md-block">
+                                                                        <h5>Kocije</h5>
+                                                                        <p>Mozete iznajmiti voznju kocijama na snegu</p>
+                                                                    </div>
+                                                                </div>
+        
+        
+                                            <div class="carousel-item">
+                                                <img src="img/zlatibor/zl7.jpg" class="d-block w-100" alt="Zlatibor">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                    <h5>Pre svega bezbednost</h5>
+                                                    <p>Kompletan Zlatibor je propisno obelezen tokom zimske sezone, tako da je nemoguce zalutati</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a class="carousel-control-prev" href="#carouselExampleCaptions3" role="button" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#carouselExampleCaptions3" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
+                                </div>
+
+                    </div>
+                    <div class="col-lg">
+                    <div class="destinacijaText">
+                        <h2>Zlatibor</h2>
+                        <p>Zlatibor nalazi se u jugozapadnom delu Srbije, na nadmorskoj visini od 700 do 1.500 m, 238 km od Beograda. Najviši planinski vrhovi su: Tornik (1.496 m) i Čigota (1.422 m). Zahvaljujući specifičnoj klimi i vazdušnim strujanjima
+                            - kontinentalnim i mediteranskim, koji se mogu naći samo ovde, nezagađenom vazduhu, zdravoj i čistoj vodi, velikom broju sunčanih dana u godini, prelepim skijaškim terenima, Zlatibor se razvio u čuveni letnji i zimski turistički
+                            centar, sa najdužom turističkom tradicijom među planinama u Srbiji. Medicinska istraživanja su pokazala da je klima Zlatibora pogodna za održavanje zdravlja i kondicije zdravih ljudi, kao i za lečenje različitih plućnih bolesti,
+                            anemije, manjih poremećaja srca i krvnih sudova, a naročito poremećaja štitaste žlezde, koji se leči u Insitutu "Čigota". Za zvanični početak turizma na Zlatiboru smatra se dolazak kralja Aleksandra Obrenovića na Kulaševac
+                            1893.godine, kada je kraj i dobio ime - "Kraljeve vode". Zlatibor je poznat kao skijaškii centar. Skijaši početnici i deca uživaće na blagim padinama Obudovice (manji ski lift dužine 250 m), a bolji skijaši će se odlučiti za
+                            odlazak na Tornik i neku od njegovih staza. Sportski centar „Tornik" nalazi se na nadmorskoj visini od 1.110-1.490 m, 9 km od turističkog centra. Staze, kojih ima četiri (Čigota, Tornik, Ribnica, Zmajevac), pogodne su za takmičenja
+                            u slalomu, veleslalomu i superveleslalomu. Povezuju ih tri ski-lifta. U centralnom delu Zlatibora nalaze se uređene staze za smučarsko trčanje i biatlon, koje se zbog svoje preglednosti i konfiguracije terena, ubrajaju među
+                            najlepše u Evropi. Tokom cele godine Zlatibor za pripreme biraju mnogi vrhunski sportski klubovi, kao i pojedinci, organizuju se košarkaški kampovi, škole paraglajdinga, tenisa, skijanja, plivanja... Zlatibor je jedan od naših
+                            najvećih centara kongresnog turizma. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+                </div><!-- SLAJDER ZLATIBOR -->
+                
+
+                <!-- SLAJDER FRANCUSKI ALPI -->
+                <div class="destinacija">
+                    <div class="row">
+
+                            <div class="col-lg-8">
+                                    <div class="destinacijaText">
+                                        <h2>Francuski Alpi</h2>
+                                        <p>
+                                            Alpi su najviši planinski masiv u Evropi koji se ujedno proteže kroz osam zemalja. Jedna od tih osam zemalja je Francuska. Alpi su takođe najgušće naseljen planinski venac u Evropi. Alpi spadaju u mlade venačne planine. Alpi su stanište za 30.000 vrsta
+                                            životinja i regija su u kojoj je prepoznato oko 13.000 vrsti biljaka. Pretpostavlja se da godišnje Alpe poseti oko 120 miliona ljudi. Bogate aristokrate su se nekada „provodile“ na Alpima tokom letnjih meseci. Danas je moguće
+                                            biti običan smrtnik i priuštiti kratki boravak na Alpima. Francuska skijališta su nešto skuplja nego austrijska i italijanska. Francuzi su krajem 19. veka od skandinavskih naroda uveli skije i skijašku veštinu. Prva škola skijanja
+                                            u Francuskoj je otvorena 1903. godine u alpskom gradu Brijanson (Briançon). Grad Šamoni se nalazi u istočnom delu Francuske i od Beograda je udaljen 1.250 kilometara. Do njega je moguće doći auto-putem koji vodi preko Zagreba,
+                                            Rijeke, Trsta, Verone, Milana i regije Aosta. Pored mogućnosti bavljenja svim mogućim zimskim sportovima, grad nudi neverovatan izbor ekskluzivnih restorana i prodavnica. Zbog velikog broja barova, Šamoni je veoma omiljen među
+                                            onima koji ne mogu da zamisle zimovanje bez ludog noćnog provoda. Šamoni u svojoj „ponudi“ ima 155 kilometara skijaških staza. Ova brojka je strateški raspoređena na pet skijališta kojim je grad Šamoni okružen – Les Planards,
+                                            Grands Montets, Domaine de Balme, Brévent – Flégère i Les Houches. Les Planards je skijalište za početnike i čine ga četiri staze opremljene topovima za veštačko osnežavanje. Nalazi se u blizini grada. Na samoj granici sa Švajcarskom
+                                            se nalazi skijalište Domaine de Balme. Skijalište čine srednje ski-staze, dve gondole i nekoliko žičara. Najlepši pogled na Mon Blan se pruža sa vrha Brévent (2.525 metara). Tu se nalazi jedan od najelitnijih alpskih restorana.
+                                            Skijalište Brévent – Flégère je popularno među porodičnim ljudima jer je okupano suncem i nudi široke staze za sve uzraste i kategorije.
+                
+                                        </p>
+                                    </div>
+                                </div>
+
+
+                        <div class="col-lg-4">
+                   
+                            <div class="bd-example">
+                                    <div id="carouselExampleCaptions4" class="carousel slide" data-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                                <li data-target="#carouselExampleCaptions4" data-slide-to="0" class="active"></li>
+                                                <li data-target="#carouselExampleCaptions4" data-slide-to="1"></li>
+                                                <li data-target="#carouselExampleCaptions4" data-slide-to="2"></li>
+                                                <li data-target="#carouselExampleCaptions4" data-slide-to="3"></li>
+                                                <li data-target="#carouselExampleCaptions4" data-slide-to="4"></li>
+                                                <li data-target="#carouselExampleCaptions4" data-slide-to="5"></li>
+                                                <li data-target="#carouselExampleCaptions4" data-slide-to="6"></li>
+                                                <li data-target="#carouselExampleCaptions4" data-slide-to="7"></li>
+                                        </ol>
+                                        <div class="carousel-inner">
+        
+                                            <div class="carousel-item active">
+                                                <img src="img/alpi/alpi1.jpg" class="d-block w-100" alt="Alpi">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                    <h5>Prelepi vrhovi</h5>
+                                                    <p>Zastace Vam dah dok gledate lepotu Alpskih vrhova</p>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="img/alpi/alpi2.jpg" class="d-block w-100" alt="Alpi">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                    <h5>Da li ste probali da planinarite?</h5>
+                                                    <p>Uz pomoc vodica imate mogucnost da se popnete na najvisi moguci vrh</p>
+                                                </div>
+                                            </div>
+        
+                                            <div class="carousel-item">
+                                                    <img src="img/alpi/alpi3.jpg" class="d-block w-100" alt="Alpi">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                        <h5>Zadovoljstvo</h5>
+                                                        <p>Zadovoljstvo nasih korisnika je nesto sto nas cini jacim i motivisanijim da budemo jos bolji u svom poslu</p>
+                                                    </div>
+                                                </div>
+        
+                                                <div class="carousel-item">
+                                                        <img src="img/alpi/alpi4.jpg" class="d-block w-100" alt="Alpi">
+                                                        <div class="carousel-caption d-none d-md-block">
+                                                            <h5>Mini odmaralista</h5>
+                                                            <p>Kad dodjete do kraja staze, mozete da se odmorite u nekoj od kafea nedaleko od staze</p>
+                                                        </div>
+                                                    </div>
+        
+                                                    <div class="carousel-item">
+                                                            <img src="img/alpi/alpi5.jpg" class="d-block w-100" alt="Alpi">
+                                                            <div class="carousel-caption d-none d-md-block">
+                                                                <h5>Krenulo je na skijanje</h5>
+                                                                <p>Pratite li ga?</p>
+                                                            </div>
+                                                        </div>
+        
+                                                        <div class="carousel-item">
+                                                                <img src="img/alpi/alpi6.jpg" class="d-block w-100" alt="Alpi">
+                                                                <div class="carousel-caption d-none d-md-block">
+                                                                    <h5>Nesto kao Drvengrad</h5>
+                                                                    <p>Jedna od veoma posecenih destinacija na Alpima su nesto kao Drvengrad u Srbiji, tj. sela izgradjena
+                                                                        od drveta
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+        
+                                                            <div class="carousel-item">
+                                                                    <img src="img/alpi/alpi7.jpg" class="d-block w-100" alt="Alpi">
+                                                                    <div class="carousel-caption d-none d-md-block">
+                                                                        <h5>Slika koja ostavlja bez daha</h5>
+                                                                        <p>Poslao nam je jedan od nasih zadovoljnih korisnika</p>
+                                                                    </div>
+                                                                </div>
+        
+        
+                                            <div class="carousel-item">
+                                                <img src="img/alpi/alpi8.jpg" class="d-block w-100" alt="Alpi">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                    <h5>Zalazak sunca</h5>
+                                                    <p>Mozete posmatrati sa jednog od vrhova kako se pale nocna svetla grada koji je nedaleko ispod vas</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a class="carousel-control-prev" href="#carouselExampleCaptions4" role="button" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#carouselExampleCaptions4" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
+                                </div>
+                   
+
+                </div>
+               
+                </div>
+                </div><!-- SLAJDER FRANCUSKI ALPI -->
+            </div>
+        </aside> <!-- ASIDE ZIMOVANJA -->
+       <!-- FOOTER -->
+                              <footer class="fadeInDownBig animated">
+                <div class="footer">
+    
+                  <div class="blok prviBlok">
+                    <h2> O nama</h2>
+                    <a href="kakoSmoPoceli.html"> Sta mi radimo?</a>
+                    <a href="nasiSponzori.html"> Partneri</a>
+                  </div>
+    
+                  <div class="blok drugiBlok">
+                    <h2>Mediji</h2>
+                    <a href="https://www.facebook.com/mihajilomrsomrsevic">facebook</a>
+                    <a href="https://www.twitter.com/MMMrso">twitter</a>
+                    <a href="https://www.instagram.com/_mihajilo_">instagram</a>
+                    <a href="https://www.linkedin.com/in/mihajilomrsevic/">linkedin</a>
+              
+                  </div>
+    
+                  <div class="blok treciBlok">
+                    <h2>Karijera</h2>
+                    <a href="karijera.html">Karijera <i class="fas fa-angle-right"></i></a>
+              
+                  </div>
+                </div>
+                <div class="copyright">
+                Copyright &copy; <span class="godina"></span> Shadow Agencija </div>
+              </footer> <!-- KRAJ FOOTER-a -->
+    </div>
+    <script> 
+        var datum=new Date(); 
+        document.getElementsByClassName("godina")[0].innerHTML=datum.getUTCFullYear(); 
+        </script>
+       <audio id="pesma" src="audio/pozadina2.mp3" autoplay></audio>
+</body>
+
+</html>

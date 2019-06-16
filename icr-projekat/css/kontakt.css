@@ -1,0 +1,113 @@
+/*
+* ----------------------------------------------------------------------------------------
+* 13.START CONTACT DESIGN
+* ----------------------------------------------------------------------------------------
+*/
+.contact_area {
+    background:#eef1f2 ;
+    }
+    .contact {
+    background:#fff;
+    padding: 80px 60px;
+    }
+    
+    .contact input {
+    background: #fff none repeat scroll 0 0;
+    border-color: currentcolor currentcolor #eee;
+    border-style: none none solid;
+    border-width: 0 0 1px;
+    box-shadow: none;
+    color: #333;
+    height: 45px;
+    padding: 10px;
+    }
+    .contact textarea {
+        background: #fff none repeat scroll 0 0;
+    border-color: currentcolor currentcolor #eee;
+    border-style: none none solid;
+    border-width: 0 0 1px;
+        border-radius: 3px;
+        box-shadow: none;
+        padding: 10px;
+        color: #333;
+        height: 200px;
+    }
+    .contact input:hover,
+    .contact input:focus {
+    border-color: currentcolor currentcolor #007bff;
+    border-style: none none solid;
+    border-width: 0 0 1px;
+        box-shadow: none;
+        outline: 0 none;
+    }
+    .contact textarea:hover,
+    .contact textarea:focus {
+        border-color: currentcolor currentcolor #007bff;
+    border-style: none none solid;
+    border-width: 0 0 1px;
+        box-shadow: none;
+        outline: 0 none;
+    }
+    .success {
+        background: #fff none repeat scroll 0 0;
+        color: #42c0d9;
+        font-weight: 700;
+        padding: 20px;
+        text-align: center;
+    }
+    .contact_address {
+      padding-left: 100px;
+      padding-top: 110px;
+    }
+    @media only screen and (max-width:768px) { 
+    .contact_address {
+      padding-bottom: 60px;
+      padding-left: 60px;
+      padding-top: 60px;
+    }
+    }
+    .contact_address h3 {
+        margin: 0 0 40px;
+        text-transform: uppercase;
+    }
+    .contact_address ul { list-style: none }
+    .contact_address ul li {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .contact_address ul li i {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 30px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+    color: #007bff ;
+    font-size: 18px;
+    height: 45px;
+    line-height: 45px;
+    margin-right: 20px;
+    text-align: center;
+    width: 45px;
+    }
+    .btn-contact-bg {
+    background: #007bff   none repeat scroll 0 0 !important;
+    border: 1px solid #007bff  !important;
+    color: #fff !important;
+    font-family: montserrat,sans-serif;
+    font-size: 14px;
+    padding: 10px 30px !important;
+    text-transform: uppercase;
+    transition: all 0.2s ease 0s;
+    }
+    .btn-contact-bg:hover,
+    .btn-contact-bg:focus {
+        background: #333!important;
+        border: 1px solid #333!important;
+        color: #fff;
+    }
+    /*
+    * ----------------------------------------------------------------------------------------
+    * 13.END CONTACT DESIGN
+    * ----------------------------------------------------------------------------------------
+    */
+ .fa{
+     color:#007bff!important;
+ }

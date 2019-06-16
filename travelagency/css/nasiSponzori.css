@@ -1,0 +1,26 @@
+*{
+    font-family: Open Sans, sans-serif;
+}
+.slike{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.kolona{
+    width: 25%;
+    padding: 0 5px;
+}
+
+.kolona img{
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+}
+main{
+    text-align:center;
+    margin-top: 100px;
+}
+main p{
+    color:grey;
+}

@@ -1,0 +1,325 @@
+            * {
+                /*font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    */
+                /* font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;*/
+                font-family: Open Sans, sans-serif;
+                box-sizing: border-box;
+            }
+            
+            body {
+                margin: 0;
+                padding: 0;
+                background:none;
+            }
+            
+            ul {
+                display: flex;
+                list-style-type: none;
+                justify-content: center;
+            }
+            
+            li a {
+                list-style-type: none;
+                text-decoration: none;
+                padding: 20px;
+                color: white;
+                text-transform: uppercase;
+            }
+            /*
+            nav {
+                width: 100%;
+                background-color: rgba(0, 119, 255, 0.8);
+                position: absolute;
+                top: 0;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+            }
+            */
+            .poruka {
+                /*  border: 1px solid yellow;*/
+                width: 100%;
+                background-color: rgba(0, 119, 255, 0.8);
+                color: white;
+                padding: 30px;
+            }
+            
+            .img-fluid {
+                max-width: 100% !important;
+                display: block !important;
+            }
+            
+            header {
+                width: 100%;
+                position: relative;
+                margin: 0;
+                padding: 0;
+                left: 0;
+                top: 0;
+                background-image: url("../img/4.jpg");
+                background-attachment: scroll;
+                background-clip: border-box;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            
+            .container {
+                margin: 0;
+                padding: 0;
+                width: 100%;
+            }
+            
+            form {
+                position: relative;
+                /* top: 50%; */
+                display: flex;
+                flex-direction: column;
+                /*  border: 1px solid blue;*/
+                width: 100%;
+                /* justify-content: center; */
+                /* align-items: center; */
+                padding: 0 20px 0 20px;
+                /*   background-color: rgba(0, 0, 0, 0.5)
+*/
+                background-color: white;
+                padding: 30px;
+            }
+            
+            .konacniKontakt {
+                /*  border: 1px solid red;*/
+                position: absolute;
+                top: 25%;
+                display: flex;
+                width: 100%;
+                padding: 30px;
+            }
+            
+            label {
+                color: white;
+                font-size: 20px;
+            }
+            
+            input[type=submit] {
+                color: #2962FF;
+                padding: 12px 20px;
+                cursor: pointer;
+                border-color: #2962FF;
+                width: 30% !important;
+                font-size: 20px;
+                background-color: transparent;
+                display:flex;
+                justify-content: center;
+                align-items:center;
+            }
+            
+            input[type=text],
+            input[type=email] {
+                padding: 20px 10px 20px 10px;
+                text-align: left;
+                border-left: none;
+                border-top: none;
+                border-right: none;
+                background-color: rgba(255, 255, 255, 0.5);
+                border-color: #2962FF;
+                font-size: 15px;
+                color: grey;
+            }
+            
+            .mreze {
+                padding: 25px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .mreze i {
+                padding: 0px 20px 0px 20px;
+            }
+            
+            .poruka h1 {}
+            
+            .poruka h3 {}
+            
+            input[type=submit]:hover {
+                background-color: #2962FF;
+                color: white;
+            }
+            a{
+                text-decoration:none;
+                color:white;
+            }
+           
+            .col-1 {
+                width: 8.33%;
+            }
+            
+            .col-2 {
+                width: 16.66%
+            }
+            
+            .col-3 {
+                width: 25%;
+            }
+            
+            .col-4 {
+                width: 33.33%;
+            }
+            
+            .col-5 {
+                width: 41.66%;
+            }
+            
+            .col-6 {
+                width: 50%;
+            }
+            
+            .col-7 {
+                width: 58.33%;
+            }
+            
+            .col-8 {
+                width: 66.66px;
+            }
+            
+            .col-9 {
+                width: 75%;
+            }
+            
+            .col-10 {
+                width: 83.33%;
+            }
+            
+            .col-11 {
+                width: 91.66%;
+            }
+            
+            .col-12 {
+                width: 100%;
+            }
+            
+            [class*="col-"] {
+                float: left;
+                padding: 15px;
+                color: white;
+            }
+            
+            .row::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+            
+            .row {
+                margin: 15px;
+            }
+            footer {
+                margin-top: 100%;
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(to right, #43c6ac, #191654);
+            }
+            .meniji {
+                display: flex;
+            }
+            .zamenaMenija {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .zamenaMenija .row {
+                margin: 0;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+
+            .zamenaMenija1 {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .svaPrava {
+                color: white;
+                text-align: center;
+                padding: 10px 0px 10px 0;
+            }
+            @media only screen and (min-width : 320px) {
+                .meniji{
+                    display:flex;
+                    flex-direction:column;
+                }
+                .zamenaMenija .row{
+                    margin:0;
+                    display:flex;
+                    flex-direction:row;
+                    align-items:center;
+                }
+                .konacniKontakt{
+                    display:flex;
+                    flex-direction:column;
+
+                }
+                .zamenaMenija .row .col-3 a{
+                    font-size:10px;
+                }
+                nav ul li a{
+                    font-size:10px;
+                };
+
+            }
+            
+            /* Extra Small Devices, Phones */ 
+            @media only screen and (min-width : 480px) {
+            .konacniKontakt{
+                display:flex;
+                flex-direction: column;
+            }
+            #head1{
+                background:none;
+            }
+            body{
+                background:url("../img/4.jpg");
+                background-origin: border-box;
+                background-size: cover;
+                background-position: center;
+                background-attachment: fixed;
+                background-origin: border-box;
+                background-repeat: no-repeat;
+            }
+            .meniji{
+                display:flex;
+                flex-direction:column;
+            }
+            .zamenaMenija .row{
+                margin:0;
+                display:flex;
+                flex-direction:row;
+                align-items:center;
+            }
+            }
+            
+            /* Small Devices, Tablets */
+            @media only screen and (min-width : 768px) {
+            
+            }
+            
+            /* Medium Devices, Desktops */
+            @media only screen and (min-width : 992px) {
+                .konacniKontakt{
+                    display:flex;
+                    flex-direction:row;
+                }  
+                
+            }
+            
+            /* Large Devices, Wide Screens */
+            @media only screen and (min-width : 1200px) {
+                
+                .meniji{
+                    display:flex;
+                    flex-direction:row;
+                }
+            }

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/potrebaZaWebSajtom.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.typekit.net/jih7qaj.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <header id="head1" class="img-fluid">
+            <nav>
+                <div class="topnav" id="myTopnav">
+                    <a href="index.html" class="active">POCETNA</a>
+                    <a href="biografija.html">BIOGRAFIJA</a>
+                    <a href="kontakt.html">KONTAKT</a>
+                    <a href="galerija.html">GALERIJA</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="blogVest">
+                <h1> Zasto Vam je potreban web sajt?</h1>
+                <div class="vest">
+                    <p> Sajt kao osnovno sredtvo danasnjice za predstavljanje usluga ili proizvoda nekog pojedinca ili firme. Primera radi vlasnik ste firme za prodaju automobila, lakse je napraviti veb sajt sa kompletnim katalogom automobila i platiti online
+                        reklamiranje. Nego recimo da se to fizicki obavlja preko novina, ili kad Vas neko pozove da mu nabrajate za svaki model pojedinacno karakteristike i cenu. Mnogo je lakse i nezavisno je.
+                    </p>
+                    <p>
+                        Vama skracuje vreme za pomenuto. Siri se brze kao takav vid oglasavanja. U bilo kom trenutku moze da se pogleda informise. Danas dobar deo nas je korisnik smartphone uredjaja, tako da sve to moze da se podeli na razlicite drustvene mreze i da se zabelezi.
+                        Hajde da izvedemo zakljucak na datom primeru.
+                    </p>
+
+                    <p>
+                        Recimo u slucaju da ste osoba koja prodaje automobile za druge, recimo ja dodjem kod Vas i kazem da zelim svoj automobil da prodam, zelim da mi nadjete kupce. Za takav primer biznisa je veoma pogodno. Mozete imati ceo katalog na internetu a ne morate
+                        imati fizicki prostor. Recimo na tom da kazemo identicnom primeru funkcionisu danasnji giganti kao aliexpress, amazon i drugi. Znaci stedite na zakupu prostora a informacije o Vasoj usluzi su uvek dostupne u slucaju da vi niste.
+                    </p>
+                    <p>
+                        Vas trosak je zakupnina hosting servisa i domena gde ce biti smesten Vas sajt i naravno programera tj osobu koja ce sve to da uradi. To je moj posao :) Ukratko receno web sajt je licna karta Vase usluge.
+                    </p>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="meniji">
+                <div class="zamenaMenija">
+                    <div class="row">
+                        <div class="col-3"><a href="biografija.html">BIOGRAFIJA</a></div>
+                        <div class="col-3"><a href="kontakt.html">KONTAKT</a></div>
+                        <div class="col-3"><a href="galerija.html">GALERIJA</a></div>
+                        <div class="col-3"><a href="potrebaZaWebSajtom.html">STA JE WEBSAJT?</a></div>
+                    </div>
+
+                </div>
+                <div class="zamenaMenija1">
+                    <div class="row">
+                        <div class="col-3"><a href="https://www.facebook.com/mihajilomrsomrsevic"><i class="fab fa-facebook"></i></a></div>
+                        <div class="col-3"><a href="https://www.twitter.com/MMMrso"><i class="fab fa-twitter"></i></a></div>
+                        <div class="col-3"><a href="https://www.linkedin.com/in/mihajilomrsevic/"><i class="fab fa-linkedin"></i></a></div>
+                        <div class="col-3"><a href="https://www.instagram.com/_mihajilo_/"><i class="fab fa-instagram"></i></a></div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="svaPrava">
+                Copyright Sva prava zadrzana.
+            </div>
+            <script>
+                var dt = new Date();
+                document.getElementsByClassName("svaPrava")[0].innerHTML = dt.getFullYear() + " &#169; Copyright Sva prava zadrzana.";
+            </script>
+        </footer>
+
+    </div>
+
+</body>
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
+</html>

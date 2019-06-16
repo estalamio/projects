@@ -1,0 +1,65 @@
+main{
+    margin-top:150px;
+    text-align: center;
+}
+main p {
+    text-align: justify;
+}
+.naslov{
+    background-color: red;
+    padding-top:200px;
+    padding-bottom:200px;
+    color:white;
+    text-transform: uppercase;
+    height: 1000px;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+.naslov h2{
+    margin-top:auto !important;
+    margin-bottom:auto !important;
+}
+.telo{
+    background-color: green;
+    padding-top:200px;
+    padding-bottom:200px;
+    color:white;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+}
+.col-lg-12 .telo p{
+    width: 50%;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:20px;
+}
+.naslov1{
+    background-image: url(../img/kakosmopoceli/service-me-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:right;
+}
+.naslov2{
+    background-image: url(../img/kakosmopoceli/vodic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.naslov3{
+    background-image: url(../img/kakosmopoceli/popusti.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+@media (max-width: 992px) {
+    .col-lg-12 .telo p{
+        width: 85%;
+    }
+    .naslov1{
+        background-position: center;
+    }
+    .naslov2{
+        background-position: center;
+    }
+ }

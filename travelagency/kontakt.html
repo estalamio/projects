@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Mihajilo Mrsevic">
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <title>Shadow agencija - Kontakt </title>
+   
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+	  <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="css/meni.css">
+    
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/kontakt.css">
+
+</head>
+<body>
+
+    
+    <div class="full-width">
+        <!-- MENI -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fadeInDownBig animated">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="index.html"><img src="img/logo.png" width="100px" height="100px" alt="Logo sajta"></a>
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="onama.html">O nama</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="usluge.html">Usluge </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galerija.html">Galerija </a>
+                    </li>
+                </ul>
+
+
+                <ul class="navbar-nav mt-2 mt-lg-0" style="margin-left:auto;">
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">FAQ </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kontakt.html">Kontakt </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sitemap.html">Mapa sajta</a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav> <!-- KRAJ MENIJA -->
+
+           
+        <!-- MAIN -->
+            <main>
+                    <!-- SLIKA 1-->
+                    <div class="slika" onmouseover="prikaziInfo();" onmouseout="skloniInfo();">
+                            <div class="kontaktPodaci">
+                            <h2>GDE SE NALAZIMO</h2>
+                                 <div class="nasaLokacija" id="info">
+                                        <ul class="list-unstyled">
+                                                <li><i class="fas fa-map-marker"></i>Adresa:<span class="float-right">Vojvode Stepe 283, Vozdovac</span></li>
+                                                <li><i class="fas fa-phone-square"></i>Telefon:<span class="float-right"><a href="tel:+11-2471-099">011/2471-099</a></span></li>
+                                                <li><i class="fas fa-envelope"></i>Email:<span class="float-right"><a href="mailto:office@viser.edu.rs">office@viser.edu.rs</a></span></li>
+                                            </ul>
+                                 </div>   
+                                </div>
+                        </div><!-- SLIKA 1-->
+
+                        <!-- SLIKA 2-->
+                        <div class="slika" onmouseover="prikaziFrame()" onmouseout="skloniFrame()">
+                                <div class="kontaktPodaci">
+                                <h2>KLIK DO NAS</h2>
+                                <iframe id="frame1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2832.6130673761377!2d20.477827315749796!3d44.76830538762629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a70f8df8b60e1%3A0x8fd9cdf24bd4d39!2sVojvode+Stepe+283%2C+Beograd!5e0!3m2!1sen!2srs!4v1553900830023!5m2!1sen!2srs" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                            </div>
+                                </div><!-- SLIKA 2-->
+
+                                <!-- SLIKA 3-->
+                <div class="slika" onmouseover="prikaziFormu();" onmouseout="skloniFormu();">
+                   <div class="kontaktPodaci">
+                    <h2>POPUNI FORMU</h2>
+
+                    <!-- FORMA -->
+                    <form class="form1" id="forma">
+							<div class="form-group">
+								<label for="exampleIme">Ime i prezime</label>
+								<input type="text" class="form-control" id="exampleIme" placeholder="Unesi ime i prezime">
+							</div>
+							<div class="form-group">
+								<label for="exampleEmail">Email adresa</label>
+								<input type="email" class="form-control" id="exampleInputEmail" placeholder="Unesi email adresu">
+							</div>
+							<div class="form-group">
+								<label for="exampleTelefon">Telefon</label>
+								<input type="tel" class="form-control" id="exampleTelefon" placeholder="Unesi telefon">
+							</div>
+					
+							<div class="form-group">
+								<label for="exampleNaslov">Naslov poruke</label>
+								<input type="text" class="form-control" id="exampleNaslov" placeholder="Unesi naslov poruke">
+							</div>
+
+							<div class="form-group">
+								<label for="examplePoruka">Poruka</label>
+					<textarea class="form-control" id="examplePoruka" rows="5"></textarea>
+							</div>
+							<a href="izlaznaStrana.html" class="btn btn-danger btn-lg btn-block">Posalji</a>
+						</form><!-- FORMA -->
+                </div>
+                </div><!-- SLIKA 3-->
+          </main><!-- MAIN -->
+
+         <!-- FOOTER -->
+          <footer class="fadeInDownBig animated">
+              <div class="footer">
+  
+                <div class="blok prviBlok">
+                  <h2> O nama</h2>
+                  <a href="kakoSmoPoceli.html"> Sta mi radimo?</a>
+                  <a href="nasiSponzori.html"> Partneri</a>
+                </div>
+  
+                <div class="blok drugiBlok">
+                  <h2>Mediji</h2>
+                  <a href="https://www.facebook.com/mihajilomrsomrsevic">facebook</a>
+                  <a href="https://www.twitter.com/MMMrso">twitter</a>
+                  <a href="https://www.instagram.com/_mihajilo_">instagram</a>
+                  <a href="https://www.linkedin.com/in/mihajilomrsevic/">linkedin</a>
+            
+                </div>
+  
+                <div class="blok treciBlok">
+                  <h2>Karijera</h2>
+                  <a href="karijera.html">Karijera <i class="fas fa-angle-right"></i></a>
+            
+                </div>
+              </div>
+              <div class="copyright">
+                Copyright &copy; <span class="godina"></span> Shadow Agencija </div>
+            </footer> <!-- KRAJ FOOTER-a -->
+    </div>
+    <script> 
+    var datum=new Date(); 
+    document.getElementsByClassName("godina")[0].innerHTML=datum.getUTCFullYear(); 
+    </script>
+    <script src="js/skripta.js"></script>
+    <audio id="pesma" src="audio/pozadina6.mp3" autoplay></audio>
+</body>
+</html>
